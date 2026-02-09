@@ -2,7 +2,7 @@ from manim import *
 
 class PeanoAxiom1(Scene):
     def construct(self):
-        title = Text("Peano Axiom 1", font_size=48)
+        title = Text("Peano Axiom 1(Existance)", font_size=48)
         title.to_edge(UP)
 
         axiom = MathTex(
